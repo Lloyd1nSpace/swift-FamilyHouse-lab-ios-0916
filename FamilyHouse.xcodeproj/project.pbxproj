@@ -11,6 +11,13 @@
 		5B95F5641DAC1D8200E37367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B95F5621DAC1D8200E37367 /* Main.storyboard */; };
 		5B95F5661DAC1D8200E37367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B95F5651DAC1D8200E37367 /* Assets.xcassets */; };
 		5B95F5691DAC1D8200E37367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B95F5671DAC1D8200E37367 /* LaunchScreen.storyboard */; };
+		6EFC4D771E1B0F26001758E3 /* TVSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC4D761E1B0F26001758E3 /* TVSeries.swift */; };
+		6EFC4D791E1B0FA4001758E3 /* FilmLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC4D781E1B0FA4001758E3 /* FilmLocation.swift */; };
+		6EFC4D7B1E1B0FEF001758E3 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC4D7A1E1B0FEF001758E3 /* Character.swift */; };
+		6EFC4D7D1E1B117B001758E3 /* FilmLocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC4D7C1E1B117B001758E3 /* FilmLocationTableViewController.swift */; };
+		6EFC4D811E1B121B001758E3 /* FilmLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC4D801E1B121B001758E3 /* FilmLocationTableViewCell.swift */; };
+		6EFC4D871E1B176A001758E3 /* CharacterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC4D861E1B176A001758E3 /* CharacterCollectionViewController.swift */; };
+		6EFC4D891E1B1790001758E3 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFC4D881E1B1790001758E3 /* CharacterCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		5B95F5651DAC1D8200E37367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B95F5681DAC1D8200E37367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B95F56A1DAC1D8200E37367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EFC4D761E1B0F26001758E3 /* TVSeries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TVSeries.swift; path = ../TVSeries.swift; sourceTree = "<group>"; };
+		6EFC4D781E1B0FA4001758E3 /* FilmLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmLocation.swift; sourceTree = "<group>"; };
+		6EFC4D7A1E1B0FEF001758E3 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		6EFC4D7C1E1B117B001758E3 /* FilmLocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmLocationTableViewController.swift; sourceTree = "<group>"; };
+		6EFC4D801E1B121B001758E3 /* FilmLocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilmLocationTableViewCell.swift; path = ../FilmLocationTableViewCell.swift; sourceTree = "<group>"; };
+		6EFC4D861E1B176A001758E3 /* CharacterCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewController.swift; sourceTree = "<group>"; };
+		6EFC4D881E1B1790001758E3 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				5B95F55E1DAC1D8200E37367 /* AppDelegate.swift */,
+				6EFC4D761E1B0F26001758E3 /* TVSeries.swift */,
+				6EFC4D781E1B0FA4001758E3 /* FilmLocation.swift */,
+				6EFC4D7A1E1B0FEF001758E3 /* Character.swift */,
 				5B95F5621DAC1D8200E37367 /* Main.storyboard */,
+				6EFC4D861E1B176A001758E3 /* CharacterCollectionViewController.swift */,
+				6EFC4D881E1B1790001758E3 /* CharacterCollectionViewCell.swift */,
+				6EFC4D7C1E1B117B001758E3 /* FilmLocationTableViewController.swift */,
+				6EFC4D801E1B121B001758E3 /* FilmLocationTableViewCell.swift */,
 				5B95F5651DAC1D8200E37367 /* Assets.xcassets */,
 				5B95F5671DAC1D8200E37367 /* LaunchScreen.storyboard */,
 				5B95F56A1DAC1D8200E37367 /* Info.plist */,
@@ -88,7 +109,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					5B95F55A1DAC1D8100E37367 = {
@@ -134,7 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EFC4D891E1B1790001758E3 /* CharacterCollectionViewCell.swift in Sources */,
+				6EFC4D771E1B0F26001758E3 /* TVSeries.swift in Sources */,
 				5B95F55F1DAC1D8200E37367 /* AppDelegate.swift in Sources */,
+				6EFC4D811E1B121B001758E3 /* FilmLocationTableViewCell.swift in Sources */,
+				6EFC4D7D1E1B117B001758E3 /* FilmLocationTableViewController.swift in Sources */,
+				6EFC4D791E1B0FA4001758E3 /* FilmLocation.swift in Sources */,
+				6EFC4D871E1B176A001758E3 /* CharacterCollectionViewController.swift in Sources */,
+				6EFC4D7B1E1B0FEF001758E3 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +206,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -227,6 +256,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
